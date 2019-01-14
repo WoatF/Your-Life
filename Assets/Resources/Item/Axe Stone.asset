@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4fa860ae2e67c4e866a5ca429a3647, type: 3}
+  m_Name: Axe Stone
+  m_EditorClassIdentifier: 
+  type: 0
+  Name: Axe Stone
+  sprite: {fileID: 21300000, guid: 324599d695684794db8bf85588b418ee, type: 3}
+  Dame: 6
+  Duration: 50
+  canBuild: 0
+  canDuplicate: 0
+  maxAmount: 0
+  size: 0

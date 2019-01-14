@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - Enemy
+  - Background
+  - Hand
+  - Environment
+  - Item
+  - Joystick Player
+  - Joystick Hook
+  - Attack Button
+  - Build
+  - InstanceUI
+  - ObjectSave
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - mybox
+  - ground
+  - Player
+  - Enemy
+  - Environment
+  - Build
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Water
+    uniqueID: 1064601973
+    locked: 0
+  - name: Ground
+    uniqueID: 156125065
+    locked: 0
+  - name: Base
+    uniqueID: 1426625725
+    locked: 0
+  - name: Shadow
+    uniqueID: 4063525829
+    locked: 0
+  - name: Player
+    uniqueID: 926316583
+    locked: 0
+  - name: UI
+    uniqueID: 2249902603
+    locked: 0

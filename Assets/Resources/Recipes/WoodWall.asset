@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 177c2740c574f464d941399f3e338597, type: 3}
+  m_Name: WoodWall
+  m_EditorClassIdentifier: 
+  input01: {fileID: 11400000, guid: 93cf81374ce88164bb852b036e74064b, type: 2}
+  input02: {fileID: 11400000, guid: 93cf81374ce88164bb852b036e74064b, type: 2}
+  count: 4
+  result: {fileID: 11400000, guid: c50d80f5ec5ce6646a0811f2a8acf5c9, type: 2}

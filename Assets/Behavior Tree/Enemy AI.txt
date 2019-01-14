@@ -1,0 +1,34 @@
+tree("Root")
+	While Alive
+		sequence
+			setAnimation("Run",false)
+			Wait(0.5)
+			while not beenAttack()
+				race			
+					tree("Move")		
+					tree("Attack")
+tree("Move")	
+	sequence
+		While	not IsClosestAndCanAttack(3.0)
+			parallel
+				setAnimation("Run",true)
+				move(1.1)
+		setAnimation("Run",false)		
+		WaitRandom(0.5,2.0)	
+tree("Attack")
+	race
+		While
+			IsClosestAndCanAttack(3.0)
+			while	not IsClosestAndCanAttack(0.3)
+				parallel
+					MoveToEnemy()
+					setAnimation("Run",true)
+		sequence
+			IsClosestAndCanAttack(0.3)
+			attack()
+			WaitRandom(0.5,1.0)
+tree("Alive")
+	parallel		
+		setAnimation("Die",true)
+		
+		
